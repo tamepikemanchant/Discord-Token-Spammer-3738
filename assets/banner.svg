@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1c2e"/>
+      <stop offset="50%" stop-color="#20213a"/>
+      <stop offset="100%" stop-color="#12131f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#5865F2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5865F2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#5865F2" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <circle cx="140" cy="80" r="120" fill="#5865F2" opacity="0.06"/>
+  <circle cx="1080" cy="300" r="150" fill="#5865F2" opacity="0.07"/>
+  <circle cx="1000" cy="60" r="60" fill="#ffffff" opacity="0.03"/>
+  <circle cx="180" cy="300" r="70" fill="#ffffff" opacity="0.03"/>
+
+  <line x1="80" y1="60" x2="1120" y2="60" stroke="url(#lineGrad)" stroke-width="1"/>
+  <line x1="80" y1="300" x2="1120" y2="300" stroke="url(#lineGrad)" stroke-width="1"/>
+
+  <path d="M 60 200 Q 300 150 600 200 T 1140 200" stroke="#5865F2" stroke-width="1" fill="none" opacity="0.15"/>
+  <path d="M 60 240 Q 300 190 600 240 T 1140 240" stroke="#5865F2" stroke-width="1" fill="none" opacity="0.10"/>
+
+  <polygon points="1050,150 1065,180 1035,180" fill="#ffffff" opacity="0.04"/>
+  <polygon points="150,220 170,255 130,255" fill="#5865F2" opacity="0.06"/>
+
+  <text x="600" y="175" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" font-weight="700" fill="#ffffff">
+    <tspan>Discord Token Spammer</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22.0" fill="#c9d1d9">
+    <tspan>Discord Token Spammer — a lightweight Windows tool.</tspan>
+  </text>
+</svg>
